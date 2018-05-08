@@ -1,0 +1,10 @@
+{% extends 'base.html' %}
+
+{% block content %}
+
+<p>Vous êtes deconnecté : connetez-vous!
+
+    ou inscrivez-vous si vous n'avez pas de compte
+  <a href="{% url 'register' %}"><h2>S'inscrire</h2></a>
+</p>
+{% endblock content %}
